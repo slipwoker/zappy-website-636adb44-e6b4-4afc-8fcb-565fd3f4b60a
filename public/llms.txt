@@ -1,83 +1,93 @@
-# Business — Generative Engine Optimization Map
+# מורגן — Generative Engine Optimization Map
+
+> A gardening and agriculture retail business that serves both end consumers (B2C) and business clients (B2B). The business sells gardening and agricultural products, with a dedicated division catering to business customers, suggesting a dual-market approach with potentially different product lines or pricing structures for each segment.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://morgan.zappy5.app
 מורגן היא החנות המובילה לגינון וחקלאות בישראל. מוצרים איכותיים לגננים ביתיים ולעסקים, במחיר שמשתלם לכולם. גלו את העולם הירוק שלנו עוד היום!
 
 ### גננים ביתיים
-https://example.com/home-gardeners
+https://morgan.zappy5.app/home-gardeners
 כל מה שגנן ביתי צריך במקום אחד! זרעים, כלי גינון, אדניות, דשנים ועוד — מורגן מציעה מגוון עצום של מוצרים שיהפכו כל גינה לגן עדן. קנו עכשיו!
 
 ### מחלקה עסקית
-https://example.com/business
+https://morgan.zappy5.app/business
 המחלקה העסקית של מורגן מספקת ציוד חקלאי מקצועי, מחירי סיטונאי ושירות B2B מותאם אישית. הצטרפו למאות עסקים שכבר בחרו בנו כשותף האמין שלהם.
 
 ### אודות
-https://example.com/about
+https://morgan.zappy5.app/about
 מורגן נוסדה מתוך אהבה אמיתית לאדמה ולצמיחה. גלו את הערכים, המומחיות והמחויבות שהפכו אותנו לשם מוביל בתחום הגינון והחקלאות בישראל. הכירו אותנו!
 
 ### צור קשר
-https://example.com/contact
+https://morgan.zappy5.app/contact
 יש שאלה? רוצים הצעת מחיר עסקית? צוות מורגן כאן בשבילכם! צרו קשר עוד היום בטלפון, במייל או בטופס המהיר שלנו ונחזור אליכם בהקדם האפשרי.
 
 ### Products
-https://example.com/products
+https://morgan.zappy5.app/products
 המוצרים שלנו - מורגן
 
 ### Cart
-https://example.com/cart
+https://morgan.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://morgan.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://morgan.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://morgan.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://morgan.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://morgan.zappy5.app/product/:slug
 פרטי המוצר - מורגן
 
 ### Category
-https://example.com/category/:slug
+https://morgan.zappy5.app/category/:slug
 מוצרים - מורגן
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://morgan.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://morgan.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://morgan.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מורגן
+A gardening and agriculture retail business that serves both end consumers (B2C) and business clients (B2B). The business sells gardening and agricultural products, with a dedicated division catering to business customers, suggesting a dual-market approach with potentially different product lines or pricing structures for each segment.
+
+## Target Audience
+לקוחות קצה ועסקים (B2C ו-B2B)
+
+## Industry
+גינון וחקלאות
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://morgan.zappy5.app/sitemap.xml
+- **Robots.txt**: https://morgan.zappy5.app/robots.txt
