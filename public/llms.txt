@@ -1,0 +1,83 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מורגן היא החנות המובילה לגינון וחקלאות בישראל. מוצרים איכותיים לגננים ביתיים ולעסקים, במחיר שמשתלם לכולם. גלו את העולם הירוק שלנו עוד היום!
+
+### גננים ביתיים
+https://example.com/home-gardeners
+כל מה שגנן ביתי צריך במקום אחד! זרעים, כלי גינון, אדניות, דשנים ועוד — מורגן מציעה מגוון עצום של מוצרים שיהפכו כל גינה לגן עדן. קנו עכשיו!
+
+### מחלקה עסקית
+https://example.com/business
+המחלקה העסקית של מורגן מספקת ציוד חקלאי מקצועי, מחירי סיטונאי ושירות B2B מותאם אישית. הצטרפו למאות עסקים שכבר בחרו בנו כשותף האמין שלהם.
+
+### אודות
+https://example.com/about
+מורגן נוסדה מתוך אהבה אמיתית לאדמה ולצמיחה. גלו את הערכים, המומחיות והמחויבות שהפכו אותנו לשם מוביל בתחום הגינון והחקלאות בישראל. הכירו אותנו!
+
+### צור קשר
+https://example.com/contact
+יש שאלה? רוצים הצעת מחיר עסקית? צוות מורגן כאן בשבילכם! צרו קשר עוד היום בטלפון, במייל או בטופס המהיר שלנו ונחזור אליכם בהקדם האפשרי.
+
+### Products
+https://example.com/products
+המוצרים שלנו - מורגן
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - מורגן
+
+### Category
+https://example.com/category/:slug
+מוצרים - מורגן
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
