@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>מורגן</title>
+    <link>https://morgan-garden.co.il</link>
+    <description>Product feed for מורגן</description>
+    <lastBuildDate>Tue, 02 Jun 2026 18:13:10 GMT</lastBuildDate>
+    <item>
+      <g:id>430df0a5-1086-4bf6-a42c-dcffe7545693</g:id>
+      <g:title>דשן לפורחים</g:title>
+      <g:description>הדשן שלנו הוא כך וכך</g:description>
+      <g:link>https://morgan-garden.co.il/product/dshn-lpvrchym-6pu0rr</g:link>
+      <g:image_link>https://morgan-garden.co.il/assets/image-product-image-1774345113731-8c7cjh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>50.00 ILS</g:price>
+      <g:sale_price>40.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>מורגן</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+  </channel>
+</rss>

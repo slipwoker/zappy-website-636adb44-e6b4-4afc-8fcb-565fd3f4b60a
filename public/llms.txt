@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# מורגן — Generative Engine Optimization Map
+
+> A gardening and agriculture retail business that serves both end consumers (B2C) and business clients (B2B). The business sells gardening and agricultural products, with a dedicated division catering to business customers, suggesting a dual-market approach with potentially different product lines or pricing structures for each segment.
 
 ---
 
@@ -72,12 +74,36 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+**Total active products: 1**
+
+### דשן לפורחים
+https://morgan-garden.co.il/product/dshn-lpvrchym-6pu0rr
+- Price: 40.00 ILS (sale, was 50.00 ILS)
+- Availability: In stock
+- Description: הדשן שלנו הוא כך וכך
+- Image: https://morgan-garden.co.il/assets/image-product-image-1774345113731-8c7cjh.webp
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://morgan-garden.co.il/sitemap.xml
-- **Robots.txt**: https://morgan-garden.co.il/robots.txt
+## About מורגן
+A gardening and agriculture retail business that serves both end consumers (B2C) and business clients (B2B). The business sells gardening and agricultural products, with a dedicated division catering to business customers, suggesting a dual-market approach with potentially different product lines or pricing structures for each segment.
+
+## Target Audience
+לקוחות קצה ועסקים (B2C ו-B2B)
+
+## Industry
+גינון וחקלאות
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://morgan-garden.co.il/sitemap.xml
+- Robots: https://morgan-garden.co.il/robots.txt
+- Flattened page text (for LLMs): https://morgan-garden.co.il/llms-full.txt
+- Products (JSON): https://morgan-garden.co.il/products.json
+- Products (Google Merchant RSS): https://morgan-garden.co.il/product-feed.xml

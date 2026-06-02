@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="דברו איתנו — הגינה שלכם לא יכולה לחכות — מורגן">
     <meta name="twitter:description" content="יש שאלה? רוצים הצעת מחיר עסקית? צוות מורגן כאן בשבילכם! צרו קשר עוד היום בטלפון, במייל או בטופס המהיר שלנו ונחזור אליכם בהקדם האפשרי.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://morgan-garden.co.il#organization","name":"מורגן","url":"https://morgan-garden.co.il","description":"A gardening and agriculture retail business that serves both end consumers (B2C) and business clients (B2B). The business sells gardening and agricultural products, with a dedicated division catering to business customers, suggesting a dual-market approach with potentially different product lines or pricing structures for each segment."},{"@type":"WebSite","@id":"https://morgan-garden.co.il#website","url":"https://morgan-garden.co.il","name":"מורגן","publisher":{"@id":"https://morgan-garden.co.il#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://morgan-garden.co.il"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://morgan-garden.co.il/contact"}]},{"@type":"ContactPage","@id":"https://morgan-garden.co.il/contact#contactpage","url":"https://morgan-garden.co.il/contact","name":"דברו איתנו — הגינה שלכם לא יכולה לחכות — מורגן","mainEntity":{"@id":"https://morgan-garden.co.il#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://morgan-garden.co.il/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":false,"description":"ישראל ישראלי"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":false,"description":"050-000-0000"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":false,"description":"example@email.com"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":false,"description":"ספרו לנו על הצורך שלכם — גינה פרטית, פרויקט חקלאי, רכש עסקי..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -297,37 +298,38 @@
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
 
-    <style id="mobile-lang-menu-deployed-css">
-    @media (max-width: 768px) {
-      .lang-switcher,
-      .nav-cta-container .lang-switcher,
-      .nav-container .lang-switcher,
-      .navbar .lang-switcher,
-      .navbar .nav-cta-container .lang-switcher,
-      .nav-icons-left .lang-switcher,
-      .nav-ecommerce-icons .lang-switcher { display: none !important; }
-      .mobile-lang-menu { width: 100%; border-top: 1px solid rgba(128,128,128,0.2); padding: 8px 0 0 0; margin-top: 8px; }
-      .mobile-lang-toggle { display: flex !important; align-items: center; justify-content: space-between; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; font-size: 15px; color: inherit; font-family: inherit; }
-      .mobile-lang-toggle::after { content: ''; display: inline-block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.3s ease; margin-left: 8px; }
-      .mobile-lang-toggle.expanded::after { transform: rotate(-135deg); }
-      .mobile-lang-options { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
-      .mobile-lang-options.expanded { max-height: 300px; }
-      .mobile-lang-option { display: flex !important; align-items: center; gap: 10px; padding: 10px 24px; text-decoration: none; color: inherit; font-size: 14px; font-family: inherit; }
-      .mobile-lang-option:hover { background: rgba(128,128,128,0.1); }
-      .mobile-lang-option.active { font-weight: 600; opacity: 0.7; pointer-events: none; }
-      .mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; }
-    }
-    @media (min-width: 769px) {
-      .mobile-lang-menu { display: none !important; }
-    }
-    </style>
-
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -347,7 +349,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "636adb44-e6b4-4afc-8fcb-565fd3f4b60a";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
+<script>window.ZAPPY_WEBSITE_ID = "636adb44-e6b4-4afc-8fcb-565fd3f4b60a";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -379,10 +381,13 @@
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products">כל המוצרים</a></li>
+        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
+  
+
+    
   <li><a href="/home-gardeners">גננים ביתיים</a></li><li><a href="/business">מחלקה עסקית</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
@@ -1285,6 +1290,14 @@
   
   <div data-integration="accessibility:toolbar"></div>
 
+<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden>
+  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="zappy-qv-content" id="zappy-qv-content"></div>
+</div>
+
     <script src="/script.js"></script>
 
     <script id="zappy-mobile-submenu-script">
@@ -1335,76 +1348,6 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
-    })();
-    </script>
-
-    <script id="zappy-mobile-lang-menu-script">
-    (function() {
-      function initMobileLangMenu() {
-        if (window.innerWidth > 768) {
-          var existingMenu = document.querySelector('.mobile-lang-menu');
-          if (existingMenu) existingMenu.remove();
-          return;
-        }
-        if (document.querySelector('.mobile-lang-menu')) return;
-        var switcher = document.querySelector('.lang-switcher');
-        if (!switcher) return;
-        var dropdown = switcher.querySelector('.lang-switcher-dropdown');
-        if (!dropdown) return;
-        var options = dropdown.querySelectorAll('.lang-option');
-        if (options.length === 0) return;
-        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu') || document.querySelector('nav ul');
-        if (!navMenu) return;
-        var currentLang = document.documentElement.lang || 'en';
-        var langConfigs = {
-          he: {name:'עברית',flag:'https://api.iconify.design/circle-flags/il.svg'},
-          en: {name:'English',flag:'https://api.iconify.design/circle-flags/us.svg'},
-          ar: {name:'العربية',flag:'https://api.iconify.design/circle-flags/sa.svg'},
-          fr: {name:'Français',flag:'https://api.iconify.design/circle-flags/fr.svg'},
-          es: {name:'Español',flag:'https://api.iconify.design/circle-flags/es.svg'},
-          de: {name:'Deutsch',flag:'https://api.iconify.design/circle-flags/de.svg'},
-          ru: {name:'Русский',flag:'https://api.iconify.design/circle-flags/ru.svg'},
-          zh: {name:'中文',flag:'https://api.iconify.design/circle-flags/cn.svg'},
-          ja: {name:'日本語',flag:'https://api.iconify.design/circle-flags/jp.svg'},
-          pt: {name:'Português',flag:'https://api.iconify.design/circle-flags/br.svg'},
-          it: {name:'Italiano',flag:'https://api.iconify.design/circle-flags/it.svg'},
-          ko: {name:'한국어',flag:'https://api.iconify.design/circle-flags/kr.svg'}
-        };
-        var container = document.createElement('div');
-        container.className = 'mobile-lang-menu';
-        var currentConfig = langConfigs[currentLang] || {name:currentLang,flag:''};
-        var toggleBtn = document.createElement('button');
-        toggleBtn.className = 'mobile-lang-toggle';
-        toggleBtn.type = 'button';
-        var currentFlagHtml = currentConfig.flag ? '<img src="' + currentConfig.flag + '" width="20" height="20" alt="" style="border-radius:50%;margin-right:8px;margin-left:8px;">' : '';
-        toggleBtn.innerHTML = currentFlagHtml + currentConfig.name;
-        container.appendChild(toggleBtn);
-        var optionsDiv = document.createElement('div');
-        optionsDiv.className = 'mobile-lang-options';
-        var currentLink = document.createElement('a');
-        currentLink.className = 'mobile-lang-option active';
-        currentLink.href = '#';
-        currentLink.innerHTML = currentFlagHtml + currentConfig.name;
-        optionsDiv.appendChild(currentLink);
-        options.forEach(function(opt) {
-          var link = document.createElement('a');
-          link.className = 'mobile-lang-option';
-          link.href = opt.getAttribute('href');
-          link.innerHTML = opt.innerHTML;
-          optionsDiv.appendChild(link);
-        });
-        container.appendChild(optionsDiv);
-        navMenu.appendChild(container);
-        toggleBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          toggleBtn.classList.toggle('expanded');
-          optionsDiv.classList.toggle('expanded');
-        });
-      }
-      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
-      else { initMobileLangMenu(); }
-      window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
     })();
     </script>
 </body>

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "generated_at": "2026-06-02T18:13:10.004Z",
+  "base_url": "https://morgan-garden.co.il",
+  "currency": "ILS",
+  "count": 1,
+  "products": [
+    {
+      "id": "430df0a5-1086-4bf6-a42c-dcffe7545693",
+      "slug": "dshn-lpvrchym-6pu0rr",
+      "name": "דשן לפורחים",
+      "name_translations": {},
+      "description": "<p>הדשן שלנו הוא כך וכך</p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 40,
+      "base_price": 50,
+      "sale_price": 40,
+      "currency": "ILS",
+      "images": [
+        "https://morgan-garden.co.il/assets/image-product-image-1774345113731-8c7cjh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://morgan-garden.co.il/product/dshn-lpvrchym-6pu0rr",
+      "categories": [],
+      "updated_at": "2026-03-24T09:39:23.783Z"
+    }
+  ]
+}
